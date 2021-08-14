@@ -6,8 +6,9 @@
   "author": "Ajit Singh",
   "license": "Private",
   "scripts": {
-    "start": "npx postcss tailwind.css -o public/style.css",
-    "deploy": "npm start && firebase deploy"
+    "start": "npx tailwindcss -o public/style.css --watch",
+    "prod-styles": "NODE_ENV=production npx tailwindcss -o public/style.css",
+    "deploy": "npm run prod-styles && firebase deploy"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
