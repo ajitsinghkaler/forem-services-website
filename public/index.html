@@ -1,605 +1,694 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>foremdev</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="/style.css" rel="stylesheet" />
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
-        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
-        <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="description" content="foremdev: Installation and Management Services for Forem" />
-        <meta name="name" content="foremdev" />
-        <meta name="site_name" content="foremdev" />
-        <meta name="msapplication-TileColor" content="#ffffff00" />
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-        <meta name="theme-color" content="#ffffff00" />
-        <meta property="og:title" content="foremdev: Installation and Management Services for Forem" />
-        <meta
-            property="og:description"
-            content="Forem is a community management software which gives you the power to build a thriving, focused, and adaptable community. It provides various things like community generated articles, moderation, listings, sponsorship management, invite only logins. This help businesses host thriving communities focused around their products and services."
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://foremdev.web.app/typing_olmlhe_c_scale,w_676.jpg" />
-        <meta property="og:url" content="https://foremdev.web.app/" />
-        <meta property="og:site_name" content="foremdev" />
-        <meta name="twitter:image:alt" content="foremdev: Installation and Management Services for Forem" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9XF08SQ2S"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', 'G-L9XF08SQ2S');
-        </script>
-    </head>
+<head>
+    <title>foremdev: Services for Community Management software Forem</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/style.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="description" content="foremdev: Installation and Management Services for Forem" />
+    <meta name="name" content="foremdev" />
+    <meta name="site_name" content="foremdev" />
+    <meta name="msapplication-TileColor" content="#ffffff00" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff00" />
+    <meta property="og:title"
+        content="foremdev: Installation and Management Services for Community Management software Forem" />
+    <meta property="og:description" content="Foremdev sets up self-hosted forem communities, we helps you tweak or personalise your
+            experience while building a forem. We give one time and long term affordable services to get you the most out of
+            forem. Using our services focus on what you should focus on community building." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://foremdev.web.app/typing_olmlhe_c_scale,w_676.jpg" />
+    <meta property="og:url" content="https://foremdev.web.app/" />
+    <meta property="og:site_name" content="foremdev" />
+    <meta name="twitter:image:alt" content="foremdev: Installation and Management Services for Forem" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9XF08SQ2S"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    <body>
-        <header class="text-gray-300 bg-gray-900 body-font">
-            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                <a href="/" class="h-9 lex title-font font-medium items-center text-white mb-4 md:mb-0">
-                    <img width="auto" height="36" alt="foremdev" loading="lazy" class="h-full" src="logo.png" />
-                </a>
-                <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <a href="#about-forem-dev" class="mr-5 hover:text-white">About</a>
-                    <a href="#about" class="mr-5 hover:text-white">Forem</a>
-                    <a href="#pricing" class="mr-5 hover:text-white">Pricing</a>
-                    <a href="#contact" class="mr-5 hover:text-white">Contact</a>
-                </nav>
+        gtag('config', 'G-L9XF08SQ2S');
+    </script>
+</head>
+
+<body>
+    <header class="text-gray-300 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a href="/" class="h-9 lex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <img width="auto" height="36" alt="foremdev" loading="lazy" class="h-full" src="logo.png" />
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#about-forem-dev" class="mr-5 hover:text-white">About</a>
+                <a href="#about" class="mr-5 hover:text-white">Forem</a>
+                <a href="#pricing" class="mr-5 hover:text-white">Pricing</a>
+                <a href="#contact" class="mr-5 hover:text-white">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 pt-20 pb-48 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <picture>
+                    <img loading="lazy" width="720" height="600" alt="hero image"
+                        sizes="(max-width: 1400px) 100vw, 1400px"
+                        srcset="typing_olmlhe_c_scale,w_200.jpg 200w, typing_olmlhe_c_scale,w_676.jpg 676w, typing_olmlhe_c_scale,w_984.jpg 984w, typing_olmlhe_c_scale,w_1259.jpg 1259w, typing_olmlhe_c_scale,w_1400.jpg 1400w"
+                        src="typing_olmlhe_c_scale,w_1400.jpg" alt="" />
+                </picture>
             </div>
-        </header>
-        <section class="text-gray-600 body-font">
-            <div class="container mx-auto flex px-5 pt-20 pb-48 md:flex-row flex-col items-center">
-                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                    <picture>
-                        <img
-                            loading="lazy"
-                            width="720"
-                            height="600"
-                            alt="hero image"
-                            sizes="(max-width: 1400px) 100vw, 1400px"
-                            srcset="typing_olmlhe_c_scale,w_200.jpg 200w, typing_olmlhe_c_scale,w_676.jpg 676w, typing_olmlhe_c_scale,w_984.jpg 984w, typing_olmlhe_c_scale,w_1259.jpg 1259w, typing_olmlhe_c_scale,w_1400.jpg 1400w"
-                            src="typing_olmlhe_c_scale,w_1400.jpg"
-                            alt=""
-                        />
-                    </picture>
-                </div>
-                <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
-                        Installation and Management Services for Forem
-                    </h1>
-                    <p class="mb-8 leading-relaxed">
-                        Foremdev sets up <b>self-hosted forem communities</b>, we helps you tweak or <b>personalise your experience</b> while building a forem. We give one time and long term affordable services to get you the most out of
-                        forem. Using our services focus on what you should
-                        <b>focus on community building.</b>
-                    </p>
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
+                    Installation and Management Services for Forem
+                </h1>
+                <p class="mb-8 leading-relaxed">
+                    Foremdev sets up <b>self-hosted forem communities</b>, we helps you tweak or <b>personalise your
+                        experience</b> while building a forem. We give one time and long term affordable services to get
+                    you the most out of
+                    forem. Using our services focus on what you should
+                    <b>focus on community building.</b>
+                </p>
 
-                    <div class="flex justify-center">
-                        <button class="inline-flex text-white bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-700 rounded text-lg">
-                            <a href="#about-forem-dev">Why foremdev?</a>
-                        </button>
-                        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                            <a href="#about">What is forem?</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="about-forem-dev" class="text-gray-400 body-font bg-gray-900">
-            <div class="container px-5 py-40 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
-                        Why foremdev?
-                    </h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Forem is a set of complex softwares handing many features, installing forem can be hard. Foremdev installs self-hosted forem websites for you so that you can avoid dealing with complex forem setups and servers but
-                        unlock a forem server that you own under $15/month We handle the entire process of installing the code, adding https to you wesite, setting up a newsletters adding users for moderation, setting up storage for images
-                        etc
-                    </p>
-                </div>
-
-                <div class="flex flex-wrap">
-                    <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
-                            Easy
-                        </h2>
-                        <p class="leading-relaxed text-base mb-4">
-                            Just call us forget about it and get a community software in 48 hours. its just that easy. Focus on where you focus best on your community
-                        </p>
-                    </div>
-                    <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
-                            Setup forem on server
-                        </h2>
-
-                        <p class="leading-relaxed text-base mb-4">
-                            Setting up forem can be hard and it may require a lot of technical knowledge. With just one request get your forem setup in 48 hours
-                        </p>
-                    </div>
-                    <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
-                            Affordable
-                        </h2>
-                        <p class="leading-relaxed text-base mb-4">
-                            Once we install forem it will just cost you less than $15-20/month to run your community. Which are server costs and is taken by AWS or digitalocean
-                        </p>
-                    </div>
-                    <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
-                            Setting up newsletters
-                        </h2>
-                        <p class="leading-relaxed text-base mb-4">
-                            You may want to setup a news letter for your commutiy we will set it up for you. For a more enaging community experience
-                        </p>
-                    </div>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex text-white bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-700 rounded text-lg">
+                        <a href="#about-forem-dev">Why foremdev?</a>
+                    </button>
+                    <button
+                        class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                        <a href="#about">What is forem?</a>
+                    </button>
                 </div>
             </div>
-        </section>
-        <section id="about" class="text-gray-600 body-font">
-            <div class="container px-5 py-40 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-                        What is forem?
-                    </h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Forem is a open source software <b>community management software</b>
-                        which gives you the power to build a
-                        <b> thriving, focused, and adaptable community </b>. It provides various things like
-                        <b>
-                            community generated articles, moderation, listings, sponsorship management, invite only logins
-                        </b>
-                        . This help businesses host thriving communities focused around their products and services. Once you choose forem
-                    </p>
-                </div>
+        </div>
+    </section>
+    <section id="about-forem-dev" class="text-gray-400 body-font bg-gray-900">
+        <div class="container px-5 py-40 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+                    Why foremdev?
+                </h2>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    Forem is a set of complex softwares handing many features, installing forem can be hard. Foremdev
+                    installs self-hosted forem websites for you so that you can avoid dealing with complex forem setups
+                    and servers but
+                    unlock a forem server that you own under $15/month We handle the entire process of installing the
+                    code, adding https to you wesite, setting up a newsletters adding users for moderation, setting up
+                    storage for images
+                    etc
+                </p>
+            </div>
 
-                <div class="container px-5 py-4 mx-auto flex flex-wrap">
-                    <div class="flex flex-wrap -m-4">
-                        <div class="p-4 lg:w-1/4 md:w-full">
-                            <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col h-full">
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Everyone's involved</h2>
-                                    <p class="leading-relaxed text-base">Create a community where everyone can get involved with discussion, listings, content sharing.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-4 lg:w-1/4 md:w-full">
-                            <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col h-full">
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Open source</h2>
-                                    <p class="leading-relaxed text-base">The software is completely open source. There is no hidden analytics or controlling your community later on.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-4 lg:w-1/4 md:w-full">
-                            <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col h-full">
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Moderation</h2>
-                                    <p class="leading-relaxed text-base">In built moderation tools to better your community. So, that eveyone can share there opiniion in a safe place.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-4 lg:w-1/4 md:w-full">
-                            <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col h-full">
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Variety</h2>
-                                    <p class="leading-relaxed text-base">It can be used for a wide variety of use cases as an internal tool in a company as a completely open community it supports all types of use-cases.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="features" class="text-gray-400 bg-gray-900 body-font">
-            <div class="container px-5 py-40 mx-auto">
-                <div class="text-center mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">
-                        Features on Forem
-                    </h1>
-                    <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        Built an open, triving, focused and welcoming community with community generated articles, content moderation, listings and sponsorship management, feed, discussions, search, podcast management, video sharing etc.
+            <div class="flex flex-wrap">
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h3 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
+                        Easy
+                    </h3>
+                    <p class="leading-relaxed text-base mb-4">
+                        Just call us forget about it and get a community software in 48 hours. its just that easy. Focus
+                        on where you focus best on your community
                     </p>
                 </div>
-                <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Feed Control</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Search</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Chat</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Podcast</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Newsletters</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Listings</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Content Sharing</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Discussions</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Content Moderation</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Invite only logins</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">Login with Twitter and Facebook</span>
-                        </div>
-                    </div>
-                    <div class="p-2 sm:w-1/2 w-full">
-                        <div class="bg-gray-800 rounded flex p-4 h-full items-center">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                <path d="M22 4L12 14.01l-3-3"></path>
-                            </svg>
-                            <span class="title-font font-medium text-white">And much more...</span>
-                        </div>
-                    </div>
-                </div>
-                <button class="flex mx-auto mt-16 text-white bg-indigo-600 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-700 rounded text-lg">
-                    Get it now
-                </button>
-            </div>
-        </section>
-        <section id="communities" class="text-gray-600 body-font">
-            <div class="container px-5 py-40 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">
-                        Communities built on forem
-                    </h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Following communities are already thriving on Forem what are you waiting for
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h3 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
+                        Setup forem on server
+                    </h3>
+
+                    <p class="leading-relaxed text-base mb-4">
+                        Setting up forem can be hard and it may require a lot of technical knowledge. With just one
+                        request get your forem setup in 48 hours
                     </p>
                 </div>
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h3 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
+                        Affordable
+                    </h3>
+                    <p class="leading-relaxed text-base mb-4">
+                        Once we install forem it will just cost you less than $15-20/month to run your community. Which
+                        are server costs and is taken by AWS or digitalocean
+                    </p>
+                </div>
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h3 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
+                        Setting up newsletters
+                    </h3>
+                    <p class="leading-relaxed text-base mb-4">
+                        You may want to setup a news letter for your commutiy we will set it up for you. For a more
+                        enaging community experience
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="text-gray-600 body-font">
+        <div class="container px-5 py-40 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+                    What is forem?
+                </h2>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    Forem is a open source software <b>community management software</b>
+                    which gives you the power to build a
+                    <b> thriving, focused, and adaptable community </b>. It provides various things like
+                    <b>
+                        community generated articles, moderation, listings, sponsorship management, invite only logins
+                    </b>
+                    . This help businesses host thriving communities focused around their products and services. Once
+                    you choose forem
+                </p>
+            </div>
+
+            <div class="container px-5 py-4 mx-auto flex flex-wrap">
                 <div class="flex flex-wrap -m-4">
-                    <div class="p-4 lg:w-1/2">
-                        <a href="https://dev.to/" class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" loading="lazy" width="256" height="128" alt="dev.to community" class="flex-shrink-0 rounded-lg w-64 object-cover object-center sm:mb-0 mb-4" src="devto.webp" />
-                            <div class="flex-grow sm:pl-8">
-                                <h2 class="title-font font-medium text-lg text-gray-900 mb-4">
-                                    Dev.to
-                                </h2>
-                                <p class="mb-4">
-                                    A constructive and inclusive social network for software developers. With you every step of your journey.
-                                </p>
+                    <div class="p-4 lg:w-1/4 md:w-full">
+                        <div
+                            class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col h-full">
+                            <div class="flex-grow">
+                                <h3 class="text-gray-900 text-lg title-font font-medium mb-3">Everyone's involved</h3>
+                                <p class="leading-relaxed text-base">Create a community where everyone can get involved
+                                    with discussion, listings, content sharing.</p>
                             </div>
-                          </a>
-                    </div>
-                    <div class="p-4 lg:w-1/2">
-                        <a href="https://www.fashionpage.io/" class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" loading="lazy" width="256" height="128" alt="Fashion Page community" class="flex-shrink-0 rounded-lg w-64 object-cover object-center sm:mb-0 mb-4" src="fashion.webp" />
-                            <div class="flex-grow sm:pl-8">
-                                <h2 class="title-font font-medium text-lg text-gray-900 mb-4">
-                                    Fashion Page
-                                </h2>
-                                <p class="mb-4">
-                                    A cheerful community to share, learn and discuss fashion. Start your fashion blog for free, read blogs of our community members. Join the community today!
-                                </p>
-                            </div>
-                          </a>
-                    </div>
-                    <div class="p-4 lg:w-1/2">
-                        <a href="https://www.thismmalife.com/" class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" loading="lazy" width="256" height="128" class="flex-shrink-0 rounded-lg w-64 object-cover object-center sm:mb-0 mb-4" src="mma.webp" />
-                            <div class="flex-grow sm:pl-8">
-                                <h2 class="title-font font-medium text-lg mb-4 text-gray-900">
-                                    This MMA Life
-                                </h2>
-                                <p class="mb-4">
-                                    We're taking online MMA mainstream with an MMA community that finally adds value to the sport and it’s athletes. It's a tough game, help where you can. Join the online MMA revolution.
-                                </p>
-                            </div>
-                          </a>
-                    </div>
-                    <div class="p-4 lg:w-1/2">
-                        <a href="https://the.community.club/" class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" loading="lazy" width="256" height="128" alt="Community Club image" class="flex-shrink-0 rounded-lg w-64 object-cover object-center sm:mb-0 mb-4" src="community.webp" />
-                            <div class="flex-grow sm:pl-8">
-                                <h2 class="title-font font-medium text-lg text-gray-900 mb-4">
-                                    Community Club
-                                </h2>
-                                <p class="mb-4">
-                                    Whether you're an experienced community manager, just starting out, a founder building a community-driven business, or just community curious, the club has something for you. Experience the power of
-                                    community. Join the club 💃 🌐 🕺
-                                </p>
-                            </div>
-                          </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="pricing" class="text-gray-400 bg-gray-900 body-font overflow-hidden">
-            <div class="container px-5 py-40 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
-                        Pricing
-                    </h1>
-                </div>
-                <div class="flex flex-wrap justify-center -m-4">
-                    <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
-                        <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-                            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-                                Basic
-                            </h2>
-                            <h1 class="text-5xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">
-                                $149
-                            </h1>
-                            <p class="flex items-center text-gray-400 mb-2">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                One Time Installation
-                            </p>
-                            <p class="flex items-center text-gray-400 mb-2">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                Basic Setup
-                            </p>
-                            <p class="flex items-center text-gray-400 mb-6">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                Self Management
-                            </p>
-                            <button class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
-                                Get it now
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </button>
-                            <p class="text-xs text-gray-400 mt-3">* Done in 24-72 hours</p>
-                            <p class="text-xs text-gray-400 mt-3">
-                                * This is a one time setup after that everything is self managed
-                            </p>
                         </div>
                     </div>
-                    <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
-                        <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-                            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-                                PRO
-                            </h2>
-                            <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                                <span>$99</span>
-                                <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
-                            </h1>
-                            <p class="flex items-center text-gray-400 mb-2">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                One time Installation and setup
-                            </p>
-                            <p class="flex items-center text-gray-400 mb-2">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                Updates
-                            </p>
-                            <p class="flex items-center text-gray-400 mb-2">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                5000 email per month
-                            </p>
-                            <p class="flex items-center text-gray-400 mb-2">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                Basic Support
-                            </p>
-                            <button class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-600 rounded">
-                                Get it now
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </button>
-                            <p class="text-xs text-gray-400 mt-3">* Done in 24 hours</p>
-                            <p class="text-xs text-gray-400 mt-3">
-                                * This is a one time setup after that only updates are added and basic support
-                            </p>
+                    <div class="p-4 lg:w-1/4 md:w-full">
+                        <div
+                            class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col h-full">
+                            <div class="flex-grow">
+                                <h3 class="text-gray-900 text-lg title-font font-medium mb-3">Open source</h3>
+                                <p class="leading-relaxed text-base">The software is completely open source. There is no
+                                    hidden analytics or controlling your community later on.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
-                        <div class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
-                            <span class="bg-indigo-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
-                            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-                                BUSINESS
-                            </h2>
-                            <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                                <span>$199</span>
-                                <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
-                            </h1>
-                            <p class="flex items-center text-gray-400 mb-2">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-indigo-500 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                One time installation and setup
-                            </p>
-                            <p class="flex items-center text-gray-400 mb-2">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-indigo-500 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                Updates
-                            </p>
-                            <p class="flex items-center text-gray-400 mb-2">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-indigo-500 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                Server management
-                            </p>
-                            <p class="flex items-center text-gray-400 mb-2">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-indigo-500 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                20,000 email per month
-                            </p>
-                            <p class="flex items-center text-gray-400 mb-6">
-                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-indigo-500 text-white rounded-full flex-shrink-0">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>
-                                Priority Support
-                            </p>
-                            <button class="flex items-center mt-auto text-white bg-indigo-600 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-800 rounded">
-                                Get it now
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </button>
-                            <p class="text-xs text-gray-400 mt-3">* Done in 24 hours</p>
-                            <p class="text-xs text-gray-400 mt-3">
-                                * Priority support is provided to the customer as needed
-                            </p>
+                    <div class="p-4 lg:w-1/4 md:w-full">
+                        <div
+                            class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col h-full">
+                            <div class="flex-grow">
+                                <h3 class="text-gray-900 text-lg title-font font-medium mb-3">Moderation</h3>
+                                <p class="leading-relaxed text-base">In built moderation tools to better your community.
+                                    So, that eveyone can share there opiniion in a safe place.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/4 md:w-full">
+                        <div
+                            class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col h-full">
+                            <div class="flex-grow">
+                                <h3 class="text-gray-900 text-lg title-font font-medium mb-3">Variety</h3>
+                                <p class="leading-relaxed text-base">It can be used for a wide variety of use cases as
+                                    an internal tool in a company as a completely open community it supports all types
+                                    of use-cases.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="text-gray-400 bg-gray-900 body-font">
-            <div class="container px-5 py-8 mx-auto">
-                <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-                    <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-white text-center">
-                        Nothing fits your needs.
-                        <a href="#contact" class="text-indigo-500">Contact us</a> for a custom quote
-                    </h1>
+        </div>
+    </section>
+    <section id="features" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-40 mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">
+                    Features on Forem
+                </h2>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                    Built an open, triving, focused and welcoming community with community generated articles, content
+                    moderation, listings and sponsorship management, feed, discussions, search, podcast management,
+                    video sharing etc.
+                </p>
+            </div>
+            <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Feed Control</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Search</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Chat</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Podcast</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Newsletters</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Listings</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Content Sharing</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Discussions</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Content Moderation</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Invite only logins</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">Login with Twitter and Facebook</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium text-white">And much more...</span>
+                    </div>
                 </div>
             </div>
-        </section>
-        <section id="contact" class="text-gray-600 body-font relative">
-            <div class="container px-5 py-40 mx-auto">
-                <div class="flex flex-col text-center w-full mb-12">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-                        Contact Us
-                    </h1>
-                </div>
-
-                <iframe src="https://tally.so/embed/3EXKLm?hideTitle=1&transparentBackground=1" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" title="Contact us"></iframe>
+            <button
+                class="flex mx-auto mt-16 text-white bg-indigo-600 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-700 rounded text-lg">
+                Get it now
+            </button>
+        </div>
+    </section>
+    <section id="communities" class="text-gray-600 body-font">
+        <div class="container px-5 py-40 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2 class="text-2xl font-medium title-font mb-4 text-gray-900">
+                    Communities built on forem
+                </h2>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    Following communities are already thriving on Forem what are you waiting for
+                </p>
             </div>
-        </section>
-        <footer class="text-gray-400 bg-gray-900 body-font">
-            <div class="container px-5 py-40 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-                <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-                    <a href="/" class="flex title-font font-medium items-center md:justify-start justify-center text-white h-9">
-                        <img width="auto" alt="foremdev" height="36" loading="lazy" class="h-full" src="logo.png" />
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/2">
+                    <a href="https://dev.to/"
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team" loading="lazy" width="256" height="128" alt="dev.to community"
+                            class="flex-shrink-0 rounded-lg w-64 object-cover object-center sm:mb-0 mb-4"
+                            src="devto.webp" />
+                        <div class="flex-grow sm:pl-8">
+                            <h3 class="title-font font-medium text-lg text-gray-900 mb-4">
+                                Dev.to
+                            </h3>
+                            <p class="mb-4">
+                                A constructive and inclusive social network for software developers. With you every step
+                                of your journey.
+                            </p>
+                        </div>
                     </a>
                 </div>
-                <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
-                    <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <nav class="list-none mb-10">
-                          <ul>
+                <div class="p-4 lg:w-1/2">
+                    <a href="https://www.fashionpage.io/"
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team" loading="lazy" width="256" height="128" alt="Fashion Page community"
+                            class="flex-shrink-0 rounded-lg w-64 object-cover object-center sm:mb-0 mb-4"
+                            src="fashion.webp" />
+                        <div class="flex-grow sm:pl-8">
+                            <h3 class="title-font font-medium text-lg text-gray-900 mb-4">
+                                Fashion Page
+                            </h3>
+                            <p class="mb-4">
+                                A cheerful community to share, learn and discuss fashion. Start your fashion blog for
+                                free, read blogs of our community members. Join the community today!
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                    <a href="https://www.thismmalife.com/"
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team" loading="lazy" width="256" height="128"
+                            class="flex-shrink-0 rounded-lg w-64 object-cover object-center sm:mb-0 mb-4"
+                            src="mma.webp" />
+                        <div class="flex-grow sm:pl-8">
+                            <h3 class="title-font font-medium text-lg mb-4 text-gray-900">
+                                This MMA Life
+                            </h3>
+                            <p class="mb-4">
+                                We're taking online MMA mainstream with an MMA community that finally adds value to the
+                                sport and it’s athletes. It's a tough game, help where you can. Join the online MMA
+                                revolution.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                    <a href="https://the.community.club/"
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team" loading="lazy" width="256" height="128" alt="Community Club image"
+                            class="flex-shrink-0 rounded-lg w-64 object-cover object-center sm:mb-0 mb-4"
+                            src="community.webp" />
+                        <div class="flex-grow sm:pl-8">
+                            <h3 class="title-font font-medium text-lg text-gray-900 mb-4">
+                                Community Club
+                            </h3>
+                            <p class="mb-4">
+                                Whether you're an experienced community manager, just starting out, a founder building a
+                                community-driven business, or just community curious, the club has something for you.
+                                Experience the power of
+                                community. Join the club 💃 🌐 🕺
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+        <div class="container px-5 py-40 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
+                    Pricing
+                </h2>
+            </div>
+            <div class="flex flex-wrap justify-center -m-4">
+                <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                        <h3 class="text-sm tracking-widest title-font mb-1 font-medium">
+                            Basic
+                        </h3>
+                        <h3 class="text-5xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">
+                            $149
+                        </h3>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            One Time Installation
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            Basic Setup
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            Self Management
+                        </p>
+                        <button
+                            class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
+                            Get it now
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                        <p class="text-xs text-gray-400 mt-3">* Done in 24-72 hours</p>
+                        <p class="text-xs text-gray-400 mt-3">
+                            * This is a one time setup after that everything is self managed
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                        <h3 class="text-sm tracking-widest title-font mb-1 font-medium">
+                            PRO
+                        </h3>
+                        <h3
+                            class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                            <span>$99</span>
+                            <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+                        </h3>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            One time Installation and setup
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            Updates
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            5000 email per month
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            Basic Support
+                        </p>
+                        <button
+                            class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-600 rounded">
+                            Get it now
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                        <p class="text-xs text-gray-400 mt-3">* Done in 24 hours</p>
+                        <p class="text-xs text-gray-400 mt-3">
+                            * This is a one time setup after that only updates are added and basic support
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
+                    <div
+                        class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+                        <span
+                            class="bg-indigo-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+                        <h3 class="text-sm tracking-widest title-font mb-1 font-medium">
+                            BUSINESS
+                        </h3>
+                        <h3
+                            class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                            <span>$199</span>
+                            <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+                        </h3>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-indigo-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            One time installation and setup
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-indigo-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            Updates
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-indigo-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            Server management
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-indigo-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            20,000 email per month
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-indigo-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>
+                            Priority Support
+                        </p>
+                        <button
+                            class="flex items-center mt-auto text-white bg-indigo-600 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-800 rounded">
+                            Get it now
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                        <p class="text-xs text-gray-400 mt-3">* Done in 24 hours</p>
+                        <p class="text-xs text-gray-400 mt-3">
+                            * Priority support is provided to the customer as needed
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-8 mx-auto">
+            <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+                <h3 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-white text-center">
+                    Nothing fits your needs.
+                    <a href="#contact" class="text-indigo-500">Contact us</a> for a custom quote
+                </h3>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="text-gray-600 body-font relative">
+        <div class="container px-5 py-40 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+                <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+                    Contact Us
+                </h2>
+            </div>
+
+            <iframe src="https://tally.so/embed/3EXKLm?hideTitle=1&transparentBackground=1" loading="lazy" width="100%"
+                height="600" frameborder="0" marginheight="0" marginwidth="0" title="Contact us"></iframe>
+        </div>
+    </section>
+    <footer class="text-gray-400 bg-gray-900 body-font">
+        <div
+            class="container px-5 py-40 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+                <a href="/"
+                    class="flex title-font font-medium items-center md:justify-start justify-center text-white h-9">
+                    <img width="auto" alt="foremdev" height="36" loading="lazy" class="h-full" src="logo.png" />
+                </a>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <nav class="list-none mb-10">
+                        <ul>
                             <li>
-                              <a href="#about-forem-dev" class="mr-5 hover:text-white text-gray-200 block p-3">About</a>
-                          </li>
+                                <a href="#about-forem-dev"
+                                    class="mr-5 hover:text-white text-gray-200 block p-3">About</a>
+                            </li>
                             <li>
                                 <a href="#about" class="mr-5 hover:text-white text-gray-200 block p-3">Forem</a>
                             </li>
@@ -609,32 +698,42 @@
                             <li>
                                 <a href="#contact" class="mr-5 hover:text-white text-gray-200 block p-3">Contact</a>
                             </li>
-                          </ul>
-                        </nav>
-                    </div>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <div class="bg-gray-800 bg-opacity-75">
-                <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                    <p class="text-gray-400 text-sm text-center sm:text-left">
-                        © 2021 foremdev —
-                        <a href="https://twitter.com/ajitsinghkaler" class="text-white ml-1" rel="noopener noreferrer" target="_blank">@ajitsinghkaler</a>
-                    </p>
-                    <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                        <a aria-label="Twitter" href="https://twitter.com/ajitsinghkaler" title="Twitter icon" class="ml-3 text-gray-400">
-                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                            </svg>
-                        </a>
-                        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/ajit-singh-abb35a103/" title="Linkedin icon" class="ml-3 text-gray-400">
-                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-                                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                            </svg>
-                        </a>
-                    </span>
-                </div>
+        </div>
+        <div class="bg-gray-800 bg-opacity-75">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-400 text-sm text-center sm:text-left">
+                    © 2021 foremdev —
+                    <a href="https://twitter.com/ajitsinghkaler" class="text-white ml-1" rel="noopener noreferrer"
+                        target="_blank">@ajitsinghkaler</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <a aria-label="Twitter" href="https://twitter.com/ajitsinghkaler" title="Twitter icon"
+                        class="ml-3 text-gray-400">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a aria-label="LinkedIn" href="https://www.linkedin.com/in/ajit-singh-abb35a103/"
+                        title="Linkedin icon" class="ml-3 text-gray-400">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
             </div>
-        </footer>
-    </body>
+        </div>
+    </footer>
+</body>
+
 </html>
